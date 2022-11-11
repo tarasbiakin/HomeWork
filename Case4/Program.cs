@@ -10,16 +10,18 @@ namespace HomeWork{
             int c = Convert.ToInt16(Console.ReadLine());
 
             int max = 0;
-            if(a >b){
-                max = a;
-                 System.Console.WriteLine("Наибольшее число  " + max); }
-                 else if(a<b){max = b;
-                 System.Console.WriteLine("Наибольшее число  " + max);
-                 }else if (c > max){
-                    System.Console.WriteLine("Наибольшее число  " + max);
-                 }
-
-            
+            if (a > b)max = a;
+            else
+            {
+                max = b;
+            }
+            if(c > max) {max =c;
+                Console.WriteLine($"max  " + max);}
+             
+            else
+             
+                Console.WriteLine($"max  " + max);
+             
               
       }
     }
