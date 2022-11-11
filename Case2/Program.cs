@@ -21,9 +21,6 @@ namespace HomeWork{
                 Console.WriteLine("Они равны");
             }
 
-
-
-
         }
     }
 }
